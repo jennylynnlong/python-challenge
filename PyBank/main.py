@@ -5,7 +5,7 @@ import csv
 budget_csv = os.path.join("Resources", "budget_data.csv")
 
 # file to hold the output of the budget analysis
-outputfile = os.path.join("budgetAnalysis.txt")
+outputfile = os.path.join("Analysis", "budgetAnalysis.txt")
 
 # variables
 totalMonths = 0     # initialize total months to 0

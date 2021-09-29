@@ -5,7 +5,7 @@ import csv
 election_csv = os.path.join("Resources", "election_data.csv")
 
 # file to hold the output of the budget analysis
-outputfile = os.path.join("electionResults.txt")
+outputfile = os.path.join("Analysis", "electionResults.txt")
 
 # variables
 totalVotes = 0  # initialize total votes to 0
