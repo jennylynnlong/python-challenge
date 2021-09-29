@@ -23,11 +23,8 @@ with open(election_csv, 'r') as csvFile:
     # read header row
     csv_header = next(csvreader)
     
-    # increment the count of the total votes
-    totalVotes += 1
-
     for row in csvreader:
-        # increment the count of the total months
+        # increment the count of the total votes
         totalVotes += 1
 
         # check if candidates (in index[2]) is in candidates list
